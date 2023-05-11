@@ -48,12 +48,12 @@ const Navbar = () => {
                     >
                         <i
                             className={`absolute fa-solid fa-bars text-lg transform transition-all duration-500 ${
-                                isMenuToggled ? "opacity-0  rotate-12" : "opacity-100  rotate-0"
+                                isMenuToggled ? "opacity-0  rotate-45" : "opacity-100  rotate-0 delay-100"
                             }`}
                         ></i>
                         <i
                             className={`absolute fa-solid fa-xmark text-xl transform transition-all duration-500 ${
-                                isMenuToggled ? "opacity-100 rotate-0" : "opacity-0 -rotate-12"
+                                isMenuToggled ? "opacity-100 rotate-0 delay-100" : "opacity-0 -rotate-45"
                             }`}
                         ></i>
                     </button>
