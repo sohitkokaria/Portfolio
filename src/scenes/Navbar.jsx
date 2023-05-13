@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { useNavigate, useLocation } from "react-router-dom";
 import useMediaQuery from "../hooks/useMediaQuery";
+import profileImage from "../assets/profile-image.jpg";
 
 const Link = ({ style, page }) => {
     const navigate = useNavigate();
@@ -39,7 +40,15 @@ const Navbar = () => {
     return (
         <nav className="z-40 w-full fixed top-0 py-6 bg-white shadow-3xl">
             <div className="flex items-center justify-between mx-auto w-5/6">
-                <h4 className="text-lg font-bold">SOHIT KOKARIA</h4>
+                <div className="flex gap-3 items-center hover:text-amber-400 transition duration-300 cursor-pointer">
+                    <Link page="HOME" style="absolute w-44 h-10 opacity-0"></Link>
+                    <img
+                        className="w-10 h-10 rounded-full shadow-lg"
+                        src={profileImage}
+                        alt="Profile Image"
+                    />
+                    <h4 className="text-lg font-bold ">SOHIT KOKARIA</h4>
+                </div>
 
                 {isSmallScreen ? (
                     <button
@@ -48,12 +57,16 @@ const Navbar = () => {
                     >
                         <i
                             className={`absolute fa-solid fa-bars text-lg transform transition-all duration-500 ${
-                                isMenuToggled ? "opacity-0  rotate-45" : "opacity-100  rotate-0 delay-100"
+                                isMenuToggled
+                                    ? "opacity-0  rotate-45"
+                                    : "opacity-100  rotate-0 delay-100"
                             }`}
                         ></i>
                         <i
                             className={`absolute fa-solid fa-xmark text-xl transform transition-all duration-500 ${
-                                isMenuToggled ? "opacity-100 rotate-0 delay-100" : "opacity-0 -rotate-45"
+                                isMenuToggled
+                                    ? "opacity-100 rotate-0 delay-100"
+                                    : "opacity-0 -rotate-45"
                             }`}
                         ></i>
                     </button>
