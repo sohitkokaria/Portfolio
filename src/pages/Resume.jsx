@@ -26,7 +26,7 @@ const ResumeContent = () => {
                 <img
                     className="w-20 h-20 rounded-full shadow-lg"
                     src={profileImage}
-                    alt="Project"
+                    alt="Profile Image"
                 />
                 <div className="">
                     <h1 className="text-4xl font-bold">SOHIT KOKARIA</h1>
