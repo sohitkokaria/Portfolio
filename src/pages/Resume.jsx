@@ -65,7 +65,7 @@ const ResumeContent = () => {
                         <h5>LinkedIn</h5>
                     </div>
 
-                    <span className="text-xs block">linkedin.com/in/sohit-kokaria/</span>
+                    <span className="text-xs block">linkedin.com/in/sohit-kokaria</span>
                 </a>
                 <a href="https://www.google.com/maps/place/Metro+Vancouver,+BC" target="_blank">
                     <div className="flex text-xs font-bold items-center gap-2">
