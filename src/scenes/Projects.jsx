@@ -105,7 +105,7 @@ const Projects = () => {
                             className={`py-3 ${
                                 isSmallScreen ? "w-36" : "w-40"
                             } rounded bg-yellow text-center font-bold shadow-lg hover:bg-amber-400 transition duration-300`}
-                            href="https://ecommerce.sohitkokaria.com"
+                            href="https://style-point.sohitkokaria.com"
                             target="_blank"
                         >
                             LIVE PREVIEW
