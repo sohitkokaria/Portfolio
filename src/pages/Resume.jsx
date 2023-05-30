@@ -35,7 +35,7 @@ const ResumeContent = () => {
             </div>
 
             {/* CONTACT LINKS */}
-            <div className="flex justify-between -5 py-3 border-b border-t border-gray-300">
+            <div className="flex justify-between py-3 border-b border-t border-gray-300">
                 <a href="tel:437-970-2416" target="_blank">
                     <div className="flex text-xs font-bold items-center gap-2">
                         <i className="fa-solid fa-phone"></i>
@@ -197,10 +197,23 @@ const ResumeContent = () => {
                             <p className="text-sm">Humber College</p>
                         </div>
                         <div className="w-3/4">
-                            <h3 className="text-md font-bold">Computer Programming</h3>
+                            <h3 className="text-md font-bold">Computer Programming Diploma</h3>
                             <p className="text-xs text-justify">
-                                Developed solid foundation in programming fundamentals. Relevant
-                                coursework: Framework Programming, Web Programming and Design
+                                Developed strong foundation in programming fundamentals. Relevant
+                                coursework: Web Programming and Design, and Framework Programming
+                            </p>
+                        </div>
+                    </div>
+                    <div className="flex">
+                        <div className="w-1/4">
+                            <p className="text-md font-semibold">Current</p>
+                            <p className="text-sm">Udemy</p>
+                        </div>
+                        <div className="w-3/4">
+                            <h3 className="text-md font-bold">Advanced Web Developer Bootcamp</h3>
+                            <p className="text-xs text-justify">
+                                Expanding skills in cutting-edge web development technologies,
+                                including React, Node.js, Express, MongoDB, and mastering advanced concepts.
                             </p>
                         </div>
                     </div>
@@ -224,20 +237,6 @@ const ResumeContent = () => {
                                 Built a comprehensive interaction logging system using Google Apps
                                 Script, led workshops, organized events, won Senior Peer Mentor of
                                 the Year award.
-                            </p>
-                        </div>
-                    </div>
-                    <div className="flex">
-                        <div className="w-1/4">
-                            <p className="text-md font-semibold">2021 - 2022</p>
-                            <p className="text-sm">TTEC</p>
-                        </div>
-                        <div className="w-3/4">
-                            <h3 className="text-md font-bold">Customer Service Advocate</h3>
-                            <p className="text-xs text-justify">
-                                Provided technical support for products to clients, diagnosed and
-                                resolved hardware, software, and system failures by following
-                                established protocols.
                             </p>
                         </div>
                     </div>
